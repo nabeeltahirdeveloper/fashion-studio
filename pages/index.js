@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import style from "../styles/HomeStyle"
 import Logo from "../assets/images/logo.png"
 import carsoulImage from "../assets/images/Carsoule.png"
+import FlashSale from '../components/flashSale/FlashSale'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -21,7 +22,7 @@ export default function Home() {
           src={Logo}
           style={{width: 100, height: 100}}
           />
-          <p>
+          <p style={style.headerText}>
             Category
           </p>
           <input style={{height:46}} type="text" placeholder='Search Your Fashion' />
@@ -44,6 +45,9 @@ export default function Home() {
           style={{width: "100%", height: "auto"}}
           />
 
+        </div>
+        <div className="flashSale">
+          <FlashSale />
         </div>
       </main>
 
