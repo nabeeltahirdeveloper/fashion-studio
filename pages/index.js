@@ -5,6 +5,10 @@ import style from "../styles/HomeStyle"
 import Logo from "../assets/images/logo.png"
 import carsoulImage from "../assets/images/Carsoule.png"
 import FlashSale from '../components/flashSale/FlashSale'
+import PopularProducts from '../components/popularProducts/PopularProducts'
+import CategoriesSection from '../components/categoriesSection/CategoriesSection'
+
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -48,6 +52,12 @@ export default function Home() {
         </div>
         <div className="flashSale">
           <FlashSale />
+        </div>
+        <div className="popularProducts">
+          <PopularProducts/>
+        </div>
+        <div className="categoriesSection">
+          <CategoriesSection/>
         </div>
       </main>
 

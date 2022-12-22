@@ -7,7 +7,7 @@ const style = {
     },
     cardContainer:{
         width: 200,
-        height: 250,
+        paddingBottom: 10,
         backgroundColor: "white",
         boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.75)",
     },

@@ -3,49 +3,65 @@ import React from 'react'
 import viewAll from "../../assets/images/viewAll.png"
 import FlashProductCard from '../flashProductCard/FlashProductCard'
 import flashProductData from "../../constants/FlashProducts.json"
+import localStyle from "./FlashSaleStyle"
 export default function FlashSale() {
-  return (
-    <div>
-        <div className="header">
-            <div>
+    return (
+        <div>
+            <div className="header" style={localStyle?.container}>
+                <div style={localStyle?.subContainer}>
 
-            <h3>
-                Flash Sale
-            </h3>
-            <p>
-                Ending In
-            </p>
+                    <div>
+
+                        <h3 style={localStyle?.saleHeading}>
+                            Flash Sale
+                        </h3>
+                        <p style={localStyle?.saleText}>
+                            Ending In
+                        </p>
+                    </div>
+                    <div style={localStyle?.saleTimer}>
+                        <div className="day" style={localStyle?.timeContainer}>
+                            <div style={localStyle?.timer}>
+
+                                <p>00</p>
+                            </div>
+                            <p>Days</p>
+                        </div>
+                        <div className="hour">
+                            <div style={localStyle?.timer}>
+
+                                <p>00</p>
+                            </div>
+                            <p>Hrs</p>
+                        </div>
+                        <div className="minute">
+                            <div style={localStyle?.timer}>
+
+                                <p>00</p>
+                            </div>
+                            <p>Min</p>
+                        </div>
+                        <div className="second">
+                            <div style={localStyle?.timer}>
+
+                                <p>00</p>
+                            </div>
+                            <p>Sec</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div style={localStyle?.seeAllContainer}>
+                    <h4>See All</h4>
+                    <Image
+                        src={viewAll}
+                        style={localStyle?.seeAllIcon}
+                    />
+                </div>
             </div>
-            <div>
-                <div className="day">
-                    <h1>00</h1>
-                    <p>Days</p>
-                </div>
-                <div className="hour">
-                    <h1>00</h1>
-                    <p>Hours</p>
-                </div>
-                <div className="minute">
-                    <h1>00</h1>
-                    <p>Minutes</p>
-                </div>
-                <div className="second">
-                    <h1>00</h1>
-                    <p>Seconds</p>
-                </div>
-                
-            </div>
-            <div>
-                <h4>View All</h4>
-                <Image
-                src={viewAll}
-                style={{width: 15, height: 15}}
-                />
+            <div className="body">
+                <FlashProductCard data={flashProductData} />
             </div>
         </div>
-        <div className="body">
-            <FlashProductCard data={flashProductData}/>
-        </div>
-    </div>
-  )
+    )
 }

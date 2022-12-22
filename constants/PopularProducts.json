@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Gull Ahmad",
+        "imagePath": "https://res.cloudinary.com/dpalshngt/image/upload/v1661688940/cld-sample.jpg",
+        "email": "",
+        "price":"1250"
+    },
+    {
+        "id": 2,
+        "name": "Gull Ahmad",
+        "imagePath": "https://res.cloudinary.com/dpalshngt/image/upload/v1661688940/cld-sample.jpg",
+        "email": "",
+        "price":"1250"
+    },
+    {
+        "id": 3,
+        "name": "Gull Ahmad",
+        "imagePath": "https://res.cloudinary.com/dpalshngt/image/upload/v1661688940/cld-sample.jpg",
+        "email": "",
+        "price":"1250"
+    },
+    {
+        "id": 4,
+        "name": "Gull Ahmad",
+        "imagePath": "https://res.cloudinary.com/dpalshngt/image/upload/v1661688940/cld-sample.jpg",
+        "email": "",
+        "price":"1250"
+    },
+    {
+        "id": 5,
+        "name": "Gull Ahmad",
+        "imagePath": "https://res.cloudinary.com/dpalshngt/image/upload/v1661688940/cld-sample.jpg",
+        "email": "",
+        "price":"1250"
+    },
+    {
+        "id": 6,
+        "name": "Gull Ahmad",
+        "imagePath": "https://res.cloudinary.com/dpalshngt/image/upload/v1661688940/cld-sample.jpg",
+        "email": "",
+        "price":"1250"
+    },
+    {
+        "id": 7,
+        "name": "Gull Ahmad",
+        "imagePath": "https://res.cloudinary.com/dpalshngt/image/upload/v1661688940/cld-sample.jpg",
+        "email": "",
+        "price":"1250"
+    }
+]
