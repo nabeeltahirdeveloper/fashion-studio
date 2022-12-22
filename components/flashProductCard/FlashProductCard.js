@@ -11,6 +11,7 @@ export default function FlashProductCard({data}) {
             data.map((item, index)=>{
                 return(
                     <ProductCard
+                    key={index}
                     data={item}
                     flashSale={true}
                     />

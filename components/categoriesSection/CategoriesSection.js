@@ -14,6 +14,7 @@ export default function CategoriesSection() {
                     <h4>See All</h4>
                     <Image
                         src={viewAll}
+                        alt="view all"
                         style={localStyle?.seeAllIcon}
                     />
                 </div>
@@ -23,6 +24,7 @@ export default function CategoriesSection() {
             categoriesData.map((item, index)=>{
                 return(
                     <ProductCard
+                    key={index}
                     data={item}
                     productCard={true}
                     />

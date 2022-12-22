@@ -24,6 +24,7 @@ export default function Home() {
 
           <Image
           src={Logo}
+          alt="logo"
           style={{width: 100, height: 100}}
           />
           <p style={style.headerText}>
@@ -46,6 +47,7 @@ export default function Home() {
         <div>
           <Image
           src={carsoulImage}
+          alt="carsoul"
           style={{width: "100%", height: "auto"}}
           />
 

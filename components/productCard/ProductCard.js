@@ -7,6 +7,7 @@ export default function ProductCard(props) {
             <div className="cardImage" style={localStyle.imageContainer}>
                 <Image
                     src={props?.data?.imagePath}
+                    alt="product image"
                     width={200}
                     height={200}
                     // quality={200}

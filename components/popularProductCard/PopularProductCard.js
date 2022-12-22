@@ -8,6 +8,7 @@ export default function PopularProductCard({data}) {
             data.map((item, index)=>{
                 return(
                     <ProductCard
+                    key={index}
                     data={item}
                     productCard={true}
                     />

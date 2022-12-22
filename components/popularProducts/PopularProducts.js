@@ -14,6 +14,7 @@ export default function PopularProducts() {
           <h4>See All</h4>
           <Image
             src={viewAll}
+            alt="view all"
             style={localStyle?.seeAllIcon}
           />
         </div>
