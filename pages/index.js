@@ -1,12 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import style from "../styles/HomeStyle"
-import Logo from "../assets/images/logo.png"
-import carsoulImage from "../assets/images/Carsoule.png"
-import FlashSale from '../components/flashSale/FlashSale'
-import PopularProducts from '../components/popularProducts/PopularProducts'
-import CategoriesSection from '../components/categoriesSection/CategoriesSection'
 
 
 export default function Home() {
@@ -19,47 +12,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div style={style.header}>
-          <div style={style.headerContainer}>
-
-          <Image
-          src={Logo}
-          alt="logo"
-          style={{width: 100, height: 100}}
-          />
-          <p style={style.headerText}>
-            Category
-          </p>
-          <input style={{height:46}} type="text" placeholder='Search Your Fashion' />
-          <button style={{height:46}}>Search</button>
-          </div>
-          <div style={style.headerText}>
-            <h4>Home</h4>
-            <h4>Our Stores</h4>
-            <h4>About Us</h4>
-            <h4>Login</h4>
-            <h4>Signup</h4>
-            <h4>Cart</h4>
-          </div>
-          
-        </div>
-
         <div>
-          <Image
-          src={carsoulImage}
-          alt="carsoul"
-          style={{width: "100%", height: "auto"}}
-          />
-
-        </div>
-        <div className="flashSale">
-          <FlashSale />
-        </div>
-        <div className="popularProducts">
-          <PopularProducts/>
-        </div>
-        <div className="categoriesSection">
-          <CategoriesSection/>
+          Home
         </div>
       </main>
 

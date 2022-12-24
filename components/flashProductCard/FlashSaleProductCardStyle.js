@@ -1,3 +1,4 @@
+import colors from "../colors"
 
 const style = {
     cardImage:{
@@ -8,13 +9,13 @@ const style = {
     cardContainer:{
         width: 200,
         height: 250,
-        backgroundColor: "white",
+        backgroundColor: colors.white,
         boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.75)",
     },
     cardTitle:{
         fontSize:14,
         fontWeight: "600",
-        color: "#000000",
+        color: colors.black,
         margin:0,
         paddingTop: 0,
         paddingBottom: 0,
@@ -22,7 +23,7 @@ const style = {
     newPrice:{
         fontSize: 14,
         fontWeight: "600",
-        color: "#FF881A",
+        color: colors.orange,
         margin:0,
         paddingTop: 0,
         paddingBottom: 0,
@@ -30,7 +31,7 @@ const style = {
     oldPrice:{
         fontSize: 8,
         fontWeight: "600",
-        color: "#969696",
+        color: colors.gray,
         width:"fit-content",
         margin:0,
         paddingTop: 0,
@@ -42,7 +43,7 @@ const style = {
     discount:{
         fontSize: 8,
         fontWeight: "600",
-        color:'#000000',
+        color:colors.black,
         marginLeft: 5,
     },
     oldPriceContainer:{

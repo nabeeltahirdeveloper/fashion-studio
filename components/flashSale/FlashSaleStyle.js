@@ -1,3 +1,5 @@
+import colors from "../colors"
+
 const style = {
     saleHeading:{
         fontSize: 32,
@@ -16,7 +18,7 @@ const style = {
         width:'100%',
         marginBottom:45,
         marginTop:10,
-        boxShadow: "2px 4px 6px #9E9E9E"
+        boxShadow: `2px 4px 6px ${colors.lightGray}`
       },
     subContainer:{
         display:'flex',
@@ -28,8 +30,8 @@ const style = {
         marginLeft:7
     },
     timer:{
-        backgroundColor:'#FF881A',
-        color:'#ffff',
+        backgroundColor:colors.orange,
+        color:colors.white,
         display:'flex',
         justifyContent:'center',
         alignItems:'center',
@@ -39,7 +41,7 @@ const style = {
         fontWeight:400
     },
     seeAllContainer:{
-        color:'#FF881A',
+        color:colors.orange,
         fontSize:12,
         fontWeight:400,
         display:'flex',
