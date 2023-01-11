@@ -61,15 +61,16 @@ const style = {
         justifyContent:'space-between',
         width:'100%'
     },
-    registerButton:{
+    signupWithGoogleButton:{
         backgroundColor:colors.white,
         border:'none',
         boxShadow: `1px 1px 10px ${colors.gray}`,
-        width:200,
         height:50,
         color:colors.orange,
         fontSize:20,
-        fontWeight:700
+        fontWeight:700,
+        display:'flex',
+        alignItems:'center',
     },
     loginButton:{
         backgroundColor:colors.orange,
