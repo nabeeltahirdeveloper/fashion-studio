@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js', 'index.js'],
   reactStrictMode: true,
   images: {
     remotePatterns: [
@@ -15,6 +16,7 @@ const nextConfig = {
 
   },
 }
+
 
 module.exports = nextConfig
 
