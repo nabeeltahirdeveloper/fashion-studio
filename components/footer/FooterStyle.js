@@ -3,7 +3,7 @@ import colors from "../colors"
 const style = {
 
     footerContainer:{
-        width: '100%',
+        // width: '100%',
         height: 392,
         backgroundColor:colors.orange,
         display: 'flex',
