@@ -3,15 +3,15 @@ import localStyle from "./ProductCardStyle"
 import Image from 'next/image'
 export default function ProductCard(props) {
     return (
-        <div className="cardContainer" style={localStyle.cardContainer}>
-            <div className="cardImage" style={localStyle.imageContainer}>
+        <div className="cardContainer" style={{...localStyle.cardContainer, width:props.cardWidth, height:props.cardHeight}}>
+            <div className="cardImage" style={{...localStyle.imageContainer, height: props.imageHeight}}>
                 <Image
                     src={props?.data?.imagePath}
                     alt="product image"
-                    width={200}
-                    height={200}
+                    width={props.cardWidth || 200}
+                    height={props.cardHeight || 200}
                     // quality={200}
-                    style={localStyle.cardImage}
+                    style={{...localStyle.cardImage, width:props.cardWidth, height:props.imageHeight}}
                 />
             </div>
             <div className="cardTitle">
